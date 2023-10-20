@@ -30,3 +30,21 @@
  .paragraf {
     padding: 13px;
  }
+
+ /* halaman About Us */
+.title {
+    margin-top: 75px;
+    background-color: #36CFBA;
+}
+.title h1 {
+    color: #000;
+    font-size: 64px;
+    font-weight: 400;
+    margin-left: 49px;
+}
+.image {
+    padding: 13px;
+}
+.content {
+    padding: 13px;
+}
