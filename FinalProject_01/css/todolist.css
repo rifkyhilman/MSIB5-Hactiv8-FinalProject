@@ -1,0 +1,110 @@
+body {
+    background: #eee;
+    color: #444;
+    font-family: 'Helvetica', arial, sans-serif;
+}
+
+.container1 {
+    background: #fff;
+    max-width: 600px;
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid #cfcbcc;
+}
+
+input {
+    border: none;
+    display: block;
+    width: 98.4%;
+    line-height: 1.5;
+    padding: 8px 0 8px 10px;
+    border-bottom: 1px solid #cfcbcc;
+    outline: 0;
+}
+
+h1 {
+    margin-top: 30px
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+h2 {
+    color: gray;
+}
+
+.container1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container ul li {
+    color: #899098;
+    font-weight: 400;
+    border-bottom: 1px solid #cfcbcc;
+    line-height: 1.5;
+    padding: 8px 0;
+}
+
+.container ul li:before {
+    content: "\25A1";
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.container ul li:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.container ul li:last-child {
+    border-bottom: none;
+}
+
+
+
+.checked {
+    color: green;
+}
+
+.chacked:before {
+    content: "\2713";
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.chacked:hover {
+    text-decoration: none;
+}
+
+.chacked:hover:after {
+    content: "(remove)";
+    color: tomato;
+    text-align: right;
+}
+
+.bawah {
+    position: fixed;
+    text-align: center;
+    bottom: -120px;
+    background-color: #000;
+    color: hsl(0, 0%, 100%);
+    width: 84.2em;
+    position: relative;
+    left: -115px;
+}
+
+.navbar {
+    height: 50px;
+}
+
+a img {
+    width: 40px;
+}
