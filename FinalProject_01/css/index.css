@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital@1&display=swap');
+
+
+
 .navbar-brand img {
     width: 50px;
     height: 50px;
@@ -9,42 +13,152 @@
 
 .hero img {
     width: 1438px;
-    height: 741px;
+    height: 550px;
 }
 
+/* Halaman BLOG */
 
- /* Halaman BLOG */
-
- .blog {
+.blog {
     margin-top: 75px;
     background-color: #36CFBA;
- }
+}
 
- .blog h1 {
+.blog h1 {
     color: #000;
     font-size: 64px;
     font-weight: 400;
     margin-left: 49px;
- }
+}
 
- .paragraf {
+.paragraf {
     padding: 13px;
- }
+}
 
- /* halaman About Us */
+/* halaman About Us */
 .title {
     margin-top: 75px;
     background-color: #36CFBA;
 }
+
 .title h1 {
     color: #000;
     font-size: 64px;
     font-weight: 400;
     margin-left: 49px;
 }
+
 .image {
     padding: 13px;
 }
+
 .content {
     padding: 13px;
+}
+
+.judul {
+    position: absolute;
+    top: 102px;
+    left: 240px;
+    font-size: 40px;
+    font-family: sans;
+    box-shadow: 0px 6px azure;
+    color: azure;
+    font-weight: bolder;
+    z-index: 3;
+}
+
+.subject {
+    position: absolute;
+    top: 187px;
+    left: 256px;
+    font-size: 40px;
+    font-family: 'Lobster', sans-serif;
+    color: #58a5d2;
+    font-weight: bolder;
+    width: 757px;
+    z-index: 2;
+    text-align: center;
+}
+
+.popup {
+    position: absolute;
+    left: 36rem;
+    top: 19em;
+    border: transparent;
+    border-radius: 21%;
+    width: 155px;
+    height: 56px;
+    box-shadow: 10px 6px gray;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 2;
+}
+
+.left-background {
+    width: 36.9em;
+    height: 32.5em;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 48.4em;
+}
+
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+    height: 58px;
+}
+
+.container-popup ul li:nth-child(1) {
+    position: relative;
+    left: -10%;
+}
+
+.container-popup ul li:nth-child(2) {
+    position: relative;
+    left: 14%;
+}
+
+.container-popup ul li:nth-child(3) {
+    position: relative;
+    left: 30%;
+}
+
+.container-popup ul {
+    margin-top: 0px;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.container-popup ul li {
+    padding: 0px 20;
+    display: flex;
+}
+
+.container-popup {
+    width: 387px;
+    position: absolute;
+    top: 213px;
+    left: 34em;
+    z-index: 4;
+    background: rgb(1, 4, 156);
+    font-weight: bold;
+    display: none;
+}
+
+.hero img,
+.left-background {
+    height: 93vh;
+}
+
+.left-background {
+    height: 88vh;
+}
+
+.judul,
+.popup,
+.subject {
+    left: 9em;
+}
+
+.popup {
+    left: 33em;
 }
