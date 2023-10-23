@@ -187,3 +187,9 @@
       z-index: 9996;
     }
   }
+
+  @media (max-width: 990px) {
+    .footer-info {
+      padding: 0;
+    }
+  }
