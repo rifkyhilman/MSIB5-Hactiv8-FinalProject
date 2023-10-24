@@ -5,12 +5,13 @@ body {
 }
 
 .main-content {
-    background: #fff;
+    background: #eee;
     max-width: 600px;
     width: 100%;
     display: table;
     margin: 100px 50px 100px 50px;
-    border: 1px solid #cfcbcc;
+    left: 20em;
+    position: relative;
 }
 
 input {
@@ -87,4 +88,10 @@ h2 {
     content: "(remove)";
     color: tomato;
     text-align: right;
+}
+
+button {
+    position: relative;
+    left: 14em;
+    border-radius: 5%;
 }
