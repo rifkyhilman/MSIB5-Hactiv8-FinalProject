@@ -110,6 +110,12 @@ a:hover {
 /*--------------------------------------------------------------
 # Recent Blog Posts Section
 --------------------------------------------------------------*/
+
+.post-img img {
+  width: 100%;
+  height: 200px;
+}
+
 .recent-posts {
   margin: 120px 0 120px 0 ;
 }
@@ -129,11 +135,6 @@ a:hover {
     overflow: hidden;
   }
 
-  .recent-posts .post-img img {
-    width: 100%;
-    height: 200px;
-  }
-  
   .recent-posts .post-category {
     font-size: 16px;
     color: #6f6f6f;
@@ -158,6 +159,7 @@ a:hover {
   
   .recent-posts .post-author-img {
     width: 50px;
+    height: 48px;
     border-radius: 50%;
     margin-right: 15px;
   }
