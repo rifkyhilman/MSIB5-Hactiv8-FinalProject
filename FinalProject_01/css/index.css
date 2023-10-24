@@ -140,7 +140,7 @@ section {
 }
 
 .hero h2 {
-  color: var(--contrast-color);
+  color: #ffffff;
   margin: 0;
   font-size: 44px;
   font-weight: 700;
