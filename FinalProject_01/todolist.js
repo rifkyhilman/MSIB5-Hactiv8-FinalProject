@@ -9,7 +9,7 @@
       e.preventDefault();
       list.innerHTML += "<li>" + item.value + "</li>";
       store();
-      item.value = "";
+      item.value === "";
     },
     false
   );
