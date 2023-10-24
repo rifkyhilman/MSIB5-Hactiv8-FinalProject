@@ -107,7 +107,101 @@ a:hover {
   content: "/";
 }
 
+/*--------------------------------------------------------------
+# Blog Details
+--------------------------------------------------------------*/
+.container {
+    padding: 0 50px 0 50px;
+}
+.blog {
+    margin: 120px 0 120px 0 ;
+}
 
+.blog .blog-details {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .blog .blog-details .post-img {
+    margin: -30px -30px 20px -30px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .blog .blog-details .title {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 0;
+    margin: 20px 0 0 0;
+    color: var(--color-default);
+  }
+  
+  .blog .blog-details .content {
+    margin-top: 20px;
+  }
+  
+  .blog .blog-details .content h3 {
+    font-size: 22px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  
+  .blog .blog-details .content blockquote {
+    overflow: hidden;
+    background-color: rgba(34, 34, 34, 0.06);
+    padding: 60px;
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .blog .blog-details .content blockquote p {
+    color: var(--color-default);
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  
+  .blog .blog-details .content blockquote:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: var(--color-secondary);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+
+  .blog .blog-details .meta-top {
+    margin-top: 20px;
+    color: #6c757d;
+  }
+  
+  .blog .blog-details .meta-top ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .blog .blog-details .meta-top ul li+li {
+    padding-left: 20px;
+  }
+  
+  .blog .blog-details .meta-top i {
+    font-size: 16px;
+    margin-right: 8px;
+    line-height: 0;
+    color: var(--color-primary);
+  }
 
  
 /*--------------------------------------------------------------
