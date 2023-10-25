@@ -58,7 +58,16 @@ for (var i = 0; i < data.length; i++) {
 </div>`;
 }
 
-document.getElementById("photos").innerHTML = resultHTML;
+let search = document.getElementById("search");
 
-let search = document.getElementById("search").value.toLowerCase();
-search;
+search.addEventListener("input", function () {
+  let filteredUsers = [];
+  for (let i = 0; i < data.length; i++) {
+    if (data[i].filter === search.value) {
+      filteredUsers = [...filteredUsers, data[i]];
+    }
+  }
+  console.log(filteredUsers);
+});
+
+document.getElementById("photos").innerHTML = resultHTML;
