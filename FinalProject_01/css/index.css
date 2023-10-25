@@ -1,59 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital@1&display=swap');
 
-
 a {
-    color:#008374;
-    text-decoration: none;
-  }
-  
+  color: #008374;
+  text-decoration: none;
+}
+
 a:hover {
-    color: #00b6a1;
-    text-decoration: none;
+  color: #00b6a1;
+  text-decoration: none;
 }
 
 
 .header {
-    transition: all 0.5s;
-    z-index: 997;
-    height: 90px;
-    background-color:#008374;
-  }
-  
+  transition: all 0.5s;
+  z-index: 997;
+  height: 90px;
+  background-color: #008374;
+}
+
 .header.sticked {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 70px;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  .header .logo img {
-    width: 80px;
-    height: 80px;
-  }
-  
-  .header .logo h1 {
-    font-size: 30px;
-    margin: 0;
-    font-weight: 600;
-    letter-spacing: 0.8px;
-    color: #fff;
-    font-family: var(--font-primary);
-  }
-  
-  .header .logo h1 span {
-    color: #f96f59;
-  }
-  
-  .sticked-header-offset {
-    margin-top: 70px;
-  }
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 70px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.header .logo h1 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: #fff;
+  font-family: var(--font-primary);
+}
+
+.header .logo h1 span {
+  color: #f96f59;
+}
+
+.sticked-header-offset {
+  margin-top: 70px;
+}
 
 
 
 .main-content {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 /*--------------------------------------------------------------
@@ -410,11 +409,11 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-    font-size: 14px;
-    background-color: #008374;
-    padding: 50px 0;
-    color: white;
-  }
+  font-size: 14px;
+  background-color: #008374;
+  padding: 50px 0;
+  color: white;
+}
 
 .footer-info {
   display: flex;
