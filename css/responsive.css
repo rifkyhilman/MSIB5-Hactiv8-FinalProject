@@ -189,7 +189,16 @@
   }
 
   @media (max-width: 990px) {
+
+    .container-hero {
+      top: 55%;
+      left: 55%;
+      text-align: center;
+    }
+
     .footer-info {
       padding: 0;
     }
+
+
   }
