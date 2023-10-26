@@ -9,7 +9,6 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="../css/index.css" />
     <link rel="stylesheet" type="text/css" href="../css/todolist.css" />
     <link rel="stylesheet" type="text/css" href="../css/responsive.css" />
     <title>Shuff</title>
@@ -29,7 +28,7 @@
             <li><a href="./contact.html">Contact</a></li>
             <li><a href="./portofolio.html">Portfolio</a></li>
             <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./todolist.html" class="active">Request</a></li>
+            <li><a href="./todolist.html" class="active">Booking</a></li>
           </ul>
         </nav>
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -39,23 +38,38 @@
     <!-- End Header -->
 
     <!-- Begin Main Content -->
-    <div class="main-content">
-      <h1>REQUEST YOUR WISE</h1>
-      <h2>we will do what ever you wanna do</h2>
+    <section class="main-content">
+      <div class="section-header">
+        <h2>Booking</h2>
+      </div>
+      <div class="form-todo">
 
-      <form action="#">
-        <input
-          type="text"
-          name="item"
-          id="item"
-          placeholder="Press Enter for a new content"
-        />
+      <form action="#" id="form">
+          <div class="col form-group">
+            <label for="text">Enter what you want to booking</label>
+            <input 
+              class="form-control"
+              type="text"
+              name="item"
+              id="item"
+              placeholder="write your booking here"
+              required
+            />
+          </div>
+          <div class="col form-group">
+            <label for="date">Enter the booking date</label>
+            <input class="form-control" type="date" id="date" name="date" required>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Submit" name="Submit" class="btn-submit">
+          </div>
       </form>
-      <ul id="list"></ul>
-      <button onclick="add()">
-        <a href="../index.html" class="href">Send Request</a>
-      </button>
+      <div class="container-order">
+        <h2> Booking List </h2>    
+        <div class="list-order" id="orders"></div>
+      </div>
     </div>
+    </section>
 
     <!-- Begin Footer -->
     <footer id="footer" class="footer">
@@ -118,6 +132,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script src="../todolist.js" defer></script>
+    <script src="../js/todolist.js"></script>
   </body>
 </html>
