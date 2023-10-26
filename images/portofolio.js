@@ -1,52 +1,128 @@
 data = [
   {
-    imgurl: "../images/1123.jpeg",
-    title: "abcd",
-    filter: "app",
-  },
-  {
-    imgurl: "../images/2213.jpg",
-    title: "abcd",
-    filter: "product",
-  },
-  {
-    imgurl: "../images/3333.jpg",
-    title: "abcd",
-    filter: "app",
-  },
-  {
-    imgurl: "../images/img1.jpg",
-    title: "abcd",
+    imgurl: "../images/360_F_535473874_OWCa2ohzXXNZgqnlzF9QETsnbrSO9pFS.jpg",
+    title:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident ab numquam, repellat error tempora! Consequatur tempore doloremque aliquam rem consequuntur? Temporibus eum itaque sed quidem. Necessitatibus officiis iste debitis!",
     filter: "branding",
   },
   {
+    imgurl: "../images/portofolio image/1.jpeg",
+    title:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, mollitia?",
+    filter: "product",
+  },
+  {
+    imgurl: "../images/portofolio image/14.jpg",
+    title:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident ab numquam, repellat error tempora! Consequatur tempore doloremque aliquam rem consequuntur? Temporibus eum itaque sed quidem. Necessitatibus officiis iste debitis!",
+    filter: "branding",
+  },
+  {
+    imgurl: "../images/Tanpa Judul.jpeg",
+    title:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, mollitia?",
+    filter: "product",
+  },
+  {
     imgurl: "../images/img2.jpg",
-    title: "abcd",
+    title:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident ab numquam, repellat error tempora! Consequatur tempore doloremque aliquam rem consequuntur? Temporibus eum itaque sed quidem. Necessitatibus officiis iste debitis!",
     filter: "app",
   },
   {
-    imgurl: "../images/2213.jpg",
-    title: "abcd",
+    imgurl: "../images/portofolio image/13.jpg",
+    title:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo quaerat veritatis. Quam, non impedit.",
     filter: "books",
   },
   {
     imgurl: "../images/aboutUs.jpeg",
-    title: "abcd",
+    title:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident ab numquam, repellat error tempora! Consequatur tempore doloremque aliquam rem consequuntur? Temporibus eum itaque sed quidem. Necessitatibus officiis iste debitis!",
     filter: "app",
   },
   {
     imgurl: "../images/2213.jpg",
-    title: "abcd",
+    title:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo quaerat veritatis. Quam, non impedit.",
     filter: "books",
   },
   {
     imgurl: "../images/3333.jpg",
-    title: "abcd",
+    title:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, architecto?",
     filter: "branding",
   },
   {
     imgurl: "../images/Hero.jpg",
-    title: "abcd",
+    title:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident ab numquam, repellat error tempora! Consequatur tempore doloremque aliquam rem consequuntur? Temporibus eum itaque sed quidem. Necessitatibus officiis iste debitis!",
+    filter: "app",
+  },
+  {
+    imgurl: "../images/portofolio image/10.jpg",
+    title:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident ab numquam, repellat error tempora! Consequatur tempore doloremque aliquam rem consequuntur? Temporibus eum itaque sed quidem. Necessitatibus officiis iste debitis!",
+    filter: "app",
+  },
+  {
+    imgurl: "../images/portofolio image/2.jpg",
+    title:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, architecto?",
+    filter: "branding",
+  },
+  {
+    imgurl: "../images/portofolio image/3.jpg",
+    title:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, architecto?",
+    filter: "branding",
+  },
+  {
+    imgurl: "../images/portofolio image/4.jpg",
+    title:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, architecto?",
+    filter: "branding",
+  },
+  {
+    imgurl: "../images/portofolio image/5.jpg",
+    title:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo quaerat veritatis. Quam, non impedit.",
+    filter: "books",
+  },
+  {
+    imgurl: "../images/portofolio image/6.jpeg",
+    title:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo quaerat veritatis. Quam, non impedit.",
+    filter: "books",
+  },
+  {
+    imgurl: "../images/portofolio image/7.png",
+    title:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo quaerat veritatis. Quam, non impedit.",
+    filter: "books",
+  },
+  {
+    imgurl: "../images/portofolio image/8.jpg",
+    title:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident ab numquam, repellat error tempora! Consequatur tempore doloremque aliquam rem consequuntur? Temporibus eum itaque sed quidem. Necessitatibus officiis iste debitis!",
+    filter: "app",
+  },
+  {
+    imgurl: "../images/portofolio image/15.jpg",
+    title:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident ab numquam, repellat error tempora! Consequatur tempore doloremque aliquam rem consequuntur? Temporibus eum itaque sed quidem. Necessitatibus officiis iste debitis!",
+    filter: "app",
+  },
+  {
+    imgurl: "../images/portofolio image/11.jpeg",
+    title:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, mollitia?",
+    filter: "product",
+  },
+  {
+    imgurl: "../images/portofolio image/12.jpg",
+    title:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, mollitia?",
     filter: "product",
   },
 ];
