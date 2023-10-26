@@ -159,7 +159,7 @@ section {
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 18px;
   font-weight: 600;
-  padding-right: 50px;
+  margin-right: 20px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 a {
@@ -175,7 +175,6 @@ section {
   color: #6c757d;
   font-size: 14px;
   margin-bottom: 0;
-  padding-right: 50px;
 }
 
 .portfolio .portfolio-wrap:hover img {
@@ -302,19 +301,9 @@ section {
 }
 
 
-h1,
-h3 {
+h4,
+p {
   text-align: center;
-  font-family: sans-serif;
-}
-
-h1 {
-  margin-top: 100px;
-}
-
-h3 {
-  margin-top: -10px;
-  margin-bottom: 30px;
 }
 
 .row {
