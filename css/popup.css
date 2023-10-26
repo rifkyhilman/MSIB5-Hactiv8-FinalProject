@@ -55,8 +55,8 @@ h6 {
     position: absolute;
     width: max-content;
     height: max-content;
-    top: -60px;
-    left: 20em;
+    top: 20px;
+    left: 8em;
     display: none;
     z-index: 100;
     background: transparent;
@@ -65,7 +65,7 @@ h6 {
 .pricing .pricing-item {
     padding: 30px 20px;
     box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
-    background: rgba(208, 198, 198, 0.629);
+    background: rgb(249, 249, 249);
     height: 100%;
     position: relative;
     border-radius: 15px;
