@@ -7,11 +7,11 @@ function generateId() {
   return +new Date();
 }
 
-function generateOrderObject(id, task, timestamp ) {
+function generateOrderObject(id, orderName, timeOrder ) {
   return {
     id,
-    task,
-    timestamp
+    orderName,
+    timeOrder
   }
 }
 
@@ -65,13 +65,13 @@ function loadDataFromStorage() {
 
 
 function makeTodo(orderObject) {
-  const {id, task, timestamp, } = orderObject;
+  const {id, orderName, timeOrder, } = orderObject;
 
-  const textTitle = document.createElement('h2');
-  textTitle.innerText = task;
+  const textTitle = document.createElement('h3');
+  textTitle.innerText = orderName;
 
   const textTimestamp = document.createElement('p');
-  textTimestamp.innerText = timestamp;
+  textTimestamp.innerText = timeOrder;
 
   const textContainer = document.createElement('div');
   textContainer.classList.add('inner');
@@ -83,7 +83,7 @@ function makeTodo(orderObject) {
   container.setAttribute('id', `todo-${id}`);
 
   const trashButton = document.createElement('button');
-  trashButton.classList.add('btn-trash');
+  trashButton.classList.add('btn-trash'); 
   trashButton.addEventListener('click', function () {
     removeOrder(id);
   });
@@ -95,10 +95,10 @@ function makeTodo(orderObject) {
 
 function addOrder() {
   const textOrder = document.getElementById('item').value;
-  const timestamp = document.getElementById('date').value;
+  const timeOrder = document.getElementById('date').value;
 
   const generatedID = generateId();
-  const orderObject = generateOrderObject(generatedID, textOrder, timestamp, false);
+  const orderObject = generateOrderObject(generatedID, textOrder, timeOrder, false);
   orders.push(orderObject);
 
   document.dispatchEvent(new Event(RENDER_EVENT));
@@ -133,7 +133,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener(SAVED_EVENT, () => {
   console.log(localStorage.getItem(STORAGE_KEY));
-  alert('data berubah');
 });
 
 document.addEventListener(RENDER_EVENT, function () {
