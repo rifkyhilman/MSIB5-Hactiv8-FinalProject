@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sortBy: portfolioSort,
         }
       );
-      // console.log(portfolioIsotope);
+      
       let menuFilters = document.querySelectorAll(
         ".portfolio-isotope .portfolio-flters li"
       );
@@ -162,7 +162,6 @@ document.addEventListener("DOMContentLoaded", () => {
             portfolioIsotope.arrange({
               filter: this.getAttribute("data-filter"),
             });
-            // console.log(portfolioIsotope);
           },
           false
         );

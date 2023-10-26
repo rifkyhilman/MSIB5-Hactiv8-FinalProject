@@ -52,6 +52,42 @@ a:hover {
 
 
 /*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  overflow: hidden;
+  background: #fff;
+  transition: all 0.6s ease-out;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #fff;
+  border-color: #008374 transparent #008374 transparent;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: animate-preloader 1.5s linear infinite;
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
@@ -117,7 +153,7 @@ section {
 
 .portfolio .portfolio-flters li:hover,
 .portfolio .portfolio-flters li.filter-active {
-  color: var(--color-primary);
+  color: #008374;
 }
 
 .portfolio .portfolio-flters li:first-child {
@@ -163,12 +199,12 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 a {
-  color: var(--color-default);
+  color: black;
   transition: 0.3s;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 a:hover {
-  color: var(--color-primary);
+  color: #008374;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
@@ -180,6 +216,59 @@ section {
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.1);
 }
+
+
+.container-card img {
+  width: 300px;
+  height: 200px;
+  margin-left: -50px;
+}
+
+.container-card img {
+  width: 300px;
+  height: 200px;
+  margin-left: -50px;
+}
+
+.container-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5vw);
+  grid-gap: 10px;
+  margin: 0px 0px 50px 100px;
+}
+
+.search {
+  width: 59em;
+  height: 40px;
+  position: relative;
+  left: 8em;
+  margin: 60px;
+  margin-top: 0;
+  border-radius: 5%;
+}
+
+.portfolio-info h4 {
+  text-align: center;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 0px;
+}
+
+.portfolio .portfolio-wrap {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 100%;
+  overflow: hidden;
+  margin: 20px;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -223,9 +312,6 @@ section {
   padding-bottom: 12px;
 }
 
-.footer .footer-links {
-  margin: 30px 0 0 0;
-}
 
 .footer .footer-links ul {
   list-style: none;
@@ -270,55 +356,12 @@ section {
   text-align: center;
 }
 
-.container-card img {
-  width: 300px;
-  height: 200px;
-  margin-left: -50px;
-}
-
-.container-card img {
-  width: 300px;
-  height: 200px;
-  margin-left: -50px;
-}
-
-.container-card {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5vw);
-  grid-gap: 10px;
-  margin: 0px 0px 50px 100px;
-}
-
-.search {
-  width: 59em;
-  height: 40px;
-  position: relative;
-  left: 8em;
-  margin: 60px;
-  margin-top: 0;
-  border-radius: 5%;
-}
-
-
-h4,
-p {
+.footer .credits {
+  padding-top: 4px;
   text-align: center;
+  font-size: 13px;
 }
 
-.row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-left: 0px;
-}
-
-.portfolio .portfolio-wrap {
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  height: 100%;
-  overflow: hidden;
-  margin: 20px;
+.footer .credits a {
+  color: #fff;
 }
