@@ -190,6 +190,10 @@
 
   @media (max-width: 990px) {
 
+    .breadcrumbs .page-header h2 {
+      font-size: 40px;
+    }
+
     .container-hero {
       top: 55%;
       left: 55%;

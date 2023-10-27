@@ -126,15 +126,6 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
-
-/*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
@@ -238,6 +229,137 @@ section {
   .hero p {
     font-size: 18px;
   }
+}
+
+
+
+/*--------------------------------------------------------------
+# Pricing Section
+--------------------------------------------------------------*/
+.pricing {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  /* top: 20px;
+  left: 0; */
+  display: none;
+  z-index: 1;
+  background: linear-gradient(rgba(5, 5, 5, 0.8), rgba(5, 5, 5, 0.8));
+}
+
+.pricing .pricing-item {
+  padding: 20px 10px;
+  box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
+  background: rgb(249, 249, 249);
+  /* height: 100%; */
+  position: relative;
+  border-radius: 15px;
+  width: 300px;
+  /* height: max-content; */
+  z-index: 1;
+
+}
+
+.pricing h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.pricing h4 {
+  font-size: 40px;
+  color: #f85a40;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.pricing h4 sup {
+  font-size: 28px;
+}
+
+.pricing h4 span {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.pricing ul {
+  padding: 20px 0;
+  list-style: none;
+  color: #6c757d;
+  text-align: left;
+  line-height: 20px;
+}
+
+.pricing ul li {
+  font-size: 16px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-weight: bold;
+}
+
+.pricing ul i {
+  color: #059652;
+  font-size: 24px;
+  padding-right: 3px;
+}
+
+.pricing ul .na {
+  color: rgba(108, 117, 125, 0.5);
+}
+
+.pricing ul .na i {
+  color: rgba(108, 117, 125, 0.5);
+}
+
+.pricing ul .na span {
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #000;
+  font-weight: bold;
+}
+
+.pricing .buy-btn {
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 50px;
+  color: #008374;
+  border: 1px solid rgba(0, 131, 116, 0.2);
+  transition: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.pricing .buy-btn:hover {
+  background: #008374;
+  color: #fff;
+}
+
+.pricing .featured {
+  z-index: 10;
+  border: 3px solid #008374;
+}
+
+
+.item-1,
+.item-3 {
+  position: absolute;
+  top: 20px;
+}
+
+.item-1 {
+  left: -10em;
+}
+
+.item-3 {
+  left: 14em;
 }
 
 /*--------------------------------------------------------------
