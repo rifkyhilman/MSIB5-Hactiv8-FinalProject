@@ -1,11 +1,11 @@
 # MSIB5-Hactiv8-FinalProject
 Final Project 1 Hactive8
 PhotoUs Company
-our project was created by
--Muhammad Rifki Hilman
--Alfian
--Muhammad Hibatul Wafii
--Silviana Putri Afrisia
+our project was created by:
+- Muhammad Rifki Hilman
+- Alfian
+- Muhammad Hibatul Wafii
+- Silviana Putri Afrisia
 
 our company is called "PhotoUs", "PhotoUs" is a company that provides photography services that strives to be the best photography among other competitors.
 we created this website to provide photography services, and we show the photos we take in our portfolio, and here are some of the advantages of our photography services:
