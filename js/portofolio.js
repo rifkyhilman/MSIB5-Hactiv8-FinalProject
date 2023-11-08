@@ -99,4 +99,4 @@ document.getElementById("photos").innerHTML = dataPorto.map(data => {
     </div>
     `
   )
-});
+}).join(' ');
