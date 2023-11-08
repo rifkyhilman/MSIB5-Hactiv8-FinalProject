@@ -1,4 +1,4 @@
-data = [
+dataPorto = [
   {
     imgurl: "../images/360_F_535473874_OWCa2ohzXXNZgqnlzF9QETsnbrSO9pFS.jpg",
     filter: "branding",
@@ -85,16 +85,18 @@ data = [
   },
 ];
 
-const resultHTML = "";
-for (var i = 0; i < data.length; i++) {
-  resultHTML += 
-            `<div class="col-xl-4 col-md-6 portfolio-item filter-${data[i].filter}">
-              <div class="portfolio-wrap">
-                <a href="${data[i].imgurl}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="${data[i].imgurl}" class="img-fluid" alt="err[i]"></a>
-                <div class="portfolio-info">
-                  <h4>${data[i].filter}</h4>
-                </div>
-              </div>
-            </div>`;
-}
-document.getElementById("photos").innerHTML = resultHTML;
+
+document.getElementById("photos").innerHTML = dataPorto.map(data => {
+  return (
+    `  
+    <div class="col-xl-4 col-md-6 portfolio-item filter-${data.filter}">
+      <div class="portfolio-wrap">
+        <a href="${data.imgurl}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="${data.imgurl}" class="img-fluid" alt="err[i]"></a>
+        <div class="portfolio-info">
+          <h4>${data.filter}</h4>
+        </div>
+      </div>
+    </div>
+    `
+  )
+});
