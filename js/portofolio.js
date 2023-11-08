@@ -85,7 +85,7 @@ data = [
   },
 ];
 
-var resultHTML = "";
+const resultHTML = "";
 for (var i = 0; i < data.length; i++) {
   resultHTML += 
             `<div class="col-xl-4 col-md-6 portfolio-item filter-${data[i].filter}">
