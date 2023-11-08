@@ -33,6 +33,51 @@ document.addEventListener("DOMContentLoaded", () => {
     document.addEventListener("scroll", headerFixed);
   }
 
+
+  /**
+   * Sticky HeaderPages on Scroll
+   */
+  const selectHeaderPages = document.querySelector("#headerPages");
+  if (selectHeaderPages) {
+    let headerOffset = selectHeaderPages.offsetTop;
+    let nextElement = selectHeaderPages.nextElementSibling;
+
+    const headerFixed = () => {
+      if (headerOffset - window.scrollY <= 0) {
+        selectHeaderPages.classList.add("sticked");
+        if (nextElement) nextElement.classList.add("sticked-header-offset");
+      } else {
+        selectHeaderPages.classList.remove("sticked");
+        if (nextElement) nextElement.classList.remove("sticked-header-offset");
+      }
+    };
+    window.addEventListener("load", headerFixed);
+    document.addEventListener("scroll", headerFixed);
+  }
+
+  /**
+   * Sticky HeaderDetailBlog on Scroll
+   */
+  const selectHeaderDetail = document.querySelector("#headerDetail");
+  if (selectHeaderDetail) {
+    let headerOffset = selectHeaderDetail.offsetTop;
+    let nextElement = selectHeaderDetail.nextElementSibling;
+
+    const headerFixed = () => {
+      if (headerOffset - window.scrollY <= 0) {
+        selectHeaderDetail.classList.add("sticked");
+        if (nextElement) nextElement.classList.add("sticked-header-offset");
+      } else {
+        selectHeaderDetail.classList.remove("sticked");
+        if (nextElement) nextElement.classList.remove("sticked-header-offset");
+      }
+    };
+    window.addEventListener("load", headerFixed);
+    document.addEventListener("scroll", headerFixed);
+  }
+
+
+
   /**
    * Navbar links active state on scroll
    */
